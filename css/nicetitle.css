@@ -1,0 +1,26 @@
+div.nicetitle {
+	background-color: #E2E2E2;
+	color: #000;
+	font-size: 1em;
+	left: 0;
+	padding: 4px;
+	position: absolute;
+	text-align: left;
+	top: 0;
+	width: 20em;
+	z-index: 20;
+	border-bottom: 4px solid #2D81B7;
+	/*
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	*/
+}
+div.nicetitle p {
+    margin: 0;
+	padding: 0 3px;
+}
+div.nicetitle p.destination {
+    font-size: 0.8em;
+    padding-top: 3px;
+	text-align: left;
+}

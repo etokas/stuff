@@ -1,0 +1,233 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 80% !important;
+	font-size: 75%;
+	text-align: center;
+	margin: 0;
+	background: #B4B4B4 url(../images/fond.gif) repeat-y center top;
+}
+
+#page {
+	margin: 0 /*auto 0 auto*/;
+	/*width: 700px;*/
+	text-align: left;
+	position: relative;
+}
+
+acronym {
+	/*border-bottom: 1px dotted #000;*/
+	border-bottom: 0;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0;
+	padding: 15px 0 20px 0;
+}
+
+h1 span {
+	display: none;
+}
+
+/*
+h2 {
+	margin: 0;
+	padding: 0;
+	text-indent: -5000px;
+	background: url(../images/h2.gif) no-repeat top left;
+	height: 21px;
+	width: 700px;
+	font-size: 1em;
+}
+*/
+h2 {
+	margin: 0;
+	padding: 2px 0 2px 20px;
+	/*text-indent: -5000px;*/
+	/*background: url(../images/h2.gif) no-repeat top left;*/
+	color: #fff;
+	background-color: #2d81b7;
+	/*height: 30px;*/
+	width: 680px;
+	font-size: 1,2em;
+}
+
+ul.liste li {
+	margin-bottom: 0px;
+	font-size: 0.9em;
+}
+
+p {
+	margin: 0.2em 0 1em 0;
+}
+
+blockquote {
+	background: #E2E2E2 url(../images/guillemets.gif) no-repeat bottom right;
+	margin: 0 0 2em 0;
+	padding: 10px 40px 10px 20px;
+}
+
+h3 {
+	/*text-indent: -5000px;*/
+	height: 21px;
+	width: 250px;
+	background-position: top left;
+	background-repeat: no-repeat;
+	margin: 2em 0 1em 0;
+	padding: 3px 0 1px 10px;
+	clear: left;
+	color: #fff;
+	background-color: #d71600;
+	
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+/*
+h3#experience-professionnelle {
+	background-image: url(../images/h3-experience-professionnel.gif);
+}
+
+h3#formation {
+	background-image: url(../images/h3-formation.gif);
+}
+
+h3#competences {
+	background-image: url(../images/h3-competences.gif);
+}
+
+h3#divers {
+	background-image: url(../images/h3-divers.gif);
+}
+*/
+
+em {
+	display: block;
+	text-align: right;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+dl {
+	margin: 0;
+}
+
+dt {
+	width: 190px;
+	text-align: right;
+	float: left;
+}
+
+dd {
+	margin: 0 0 0 200px;
+}
+
+a {
+	color: #444;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+/*
+::-moz-selection {
+	color: #FFF;
+	background-color: #D71600;
+}
+*/
+
+strong {
+	color: #000;
+}
+
+p {
+	color: #444;
+}
+
+
+#lightbox {
+	background-color:#eee;
+	padding: 10px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+}
+
+#overlay { background-image: url(/images/overlay.png); }
+
+* html #overlay {
+	background-color: #000;
+	back\ground-color: transparent;
+	background-image: url(blank.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/overlay.png", sizingMethod="scale");
+}
+
+#missionslist dt {
+	text-transform: uppercase;	
+}
+
+#missionslist dd p.intervention {
+	color: #000;
+		
+}
+
+#missionslist  p {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#missionslist  ul {
+	text-indent: 0;
+	padding-left: 0;
+	margin-bottom: 10px;
+}
+#missionslist  li {
+	list-style-type : none;	
+	font-weight: normal; 
+}
+
+span.missionitem {
+	font-weight: normal; color: #444;
+}
+
+#veilletechno li {
+	list-style-type: circle;margin-left: 20px; color: #444;
+}
+
+ul#veilletechno { 
+	text-indent: 0; 
+	margin: 0.2em 0 1em 0;
+	padding-left: 0;
+}
+
+
+.noprint {
+	display: none;
+}
+
+a[hreflang]:after {
+	content: "";
+}
+
+.printpagebreack {
+	page-break-before: always; 
+}
+
+
+
+img#portrait {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+ul.liste {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: absolute;
+	top: 15px;
+	right: 120px;
+}
